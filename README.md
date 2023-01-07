@@ -9,38 +9,20 @@
 2. Run website by 'npm run start' in `/Instagram/client`
 
 ## Features
-- Products: Title, Rating, Details, Price, and Quanitity
-- Have option to Add to Cart and Buy Now
-<img width="1028" alt="Screen Shot 2022-11-29 at 4 43 42 PM" src="https://user-images.githubusercontent.com/54085719/204679919-40c8ea14-4fea-4555-a957-72641f13605b.png">
+### Login Page
+- Built REST API for Creating an account, logging in, and logging out using Node.js and Express.js
+<img width="853" alt="Screen Shot 2023-01-06 at 10 01 00 PM" src="https://user-images.githubusercontent.com/54085719/211133726-d8983090-90a1-47ac-8e8b-aa8afcb7a1e9.png">
 
-- You may also like
-<img width="1236" alt="Screen Shot 2022-11-29 at 4 45 16 PM" src="https://user-images.githubusercontent.com/54085719/204680105-98c0fae8-8218-47c5-b5a7-1a8226dda690.png">
+- Backend Configurations, Middleware Setup, and MongoDB set up (Models for User, Post, and Friend)
+- Authentication and Authorization in Node.js
+<img width="862" alt="Screen Shot 2023-01-06 at 10 01 18 PM" src="https://user-images.githubusercontent.com/54085719/211133734-5a48b641-f3f3-4584-81dd-4d930a30fdd5.png">
 
-- Banner: Summer Sale Item
-<img width="1549" alt="Screen Shot 2022-11-29 at 4 47 26 PM" src="https://user-images.githubusercontent.com/54085719/204680316-e452c83d-6643-4571-8892-17b697cc2977.png">
+## Home Page
+- Create Post, Get Feed Posts, Get User Posts, and Like Post using React.js, Node.js, and MaterialUI
+- Has section for User Information, Advertistment (Sponsorship), and Friend List
+- Change light/dark mode and logout button
+<img width="1522" alt="Screen Shot 2023-01-06 at 10 02 41 PM" src="https://user-images.githubusercontent.com/54085719/211133782-21305157-eb9f-4e0d-947a-e419888f276c.png">
 
-- Footer: Summer Sale Item
-<img width="1566" alt="Screen Shot 2022-11-29 at 4 47 52 PM" src="https://user-images.githubusercontent.com/54085719/204680361-b92a3ac9-3223-42dc-a766-85e48b6c7d25.png">
-
-- Cart: List of selected items, Able to delete unwanted items, Subtotal, and Quantitiy
-<img width="618" alt="Screen Shot 2022-11-29 at 4 45 43 PM" src="https://user-images.githubusercontent.com/54085719/204680149-8db1213a-0fbf-4a16-8af2-e872ab407558.png">
-
-- Payment Option: using Stripe (success page for buying products)
-<img width="1206" alt="Screen Shot 2022-11-29 at 4 46 46 PM" src="https://user-images.githubusercontent.com/54085719/204680249-c54524e2-7f8b-4289-be7a-e6e77ea338d3.png">
-
-## Componenets
-- Cart, Product, Navbar, Footer, FooterBanner, and HeroBanner
-- Used StateContext to keep track of price, quanitity, and cart items
-
-## Product Details
-- File-based Routing and Data Fetching using Next.js
-- Used methods: `getStaticProps`, `getStaticPaths`, and `getServerSideProps`
-
-## Sanity
-- Created Schema for product and banner
-- Hooked up Sanity using Sanity Client
-
-## Stripe
-- Payments: Stored through Stripes Dashboard under Payments with list of items and prices
-- Shipping Rates: Free Shipping ($0) and Fast Shipping ($20)
-- Entire Checkout Process: https://stripe.com/docs/checkout/quickstart?client=next using Prebuilt Checkout Page in Next.js
+## Profile Page
+- Similar to Home Page, but you can click to any user, friend list, and see there information and all of their posts
+<img width="1470" alt="Screen Shot 2023-01-06 at 10 07 11 PM" src="https://user-images.githubusercontent.com/54085719/211133911-72840da7-20f7-41c2-9261-1a3589a84063.png">
